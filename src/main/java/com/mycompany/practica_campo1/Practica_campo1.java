@@ -36,7 +36,7 @@ public class Practica_campo1 {
                     break;
                 case 2:
                     double resta = restar(num1, num2);
-                    System.out.println("Resultado de la resta: "+ resta);
+                    System.out.println("[LOG FEATURE]Resultado de la resta: "+ resta);
                 case 3:
                     double multi= multiplicacion(num1,num2);
                     System.out.println("Resultado de la multiplicacion"+multi);
