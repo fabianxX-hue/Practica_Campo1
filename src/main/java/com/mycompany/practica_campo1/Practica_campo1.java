@@ -36,7 +36,7 @@ public class Practica_campo1 {
                     break;
                 case 2:
                     double resta = restar(num1, num2);
-                    System.out.println("Resultado de la resta: "+ resta);
+                    System.out.println("[LOG] Resultado de la resta: "+ resta);
                 default:
                  System.out.println("Opción no válida. Intente de nuevo.");
             }
