@@ -36,7 +36,12 @@ public class Practica_campo1 {
                     break;
                 case 2:
                     double resta = restar(num1, num2);
-                    System.out.println("[LOG] Resultado de la resta: "+ resta);
+
+                    System.out.println("[LOG OPERACIONAL]Resultado de la resta: "+ resta);
+                case 3:
+                    double multi= multiplicacion(num1,num2);
+                    System.out.println("Resultado de la multiplicacion"+multi);
+
                 default:
                  System.out.println("Opción no válida. Intente de nuevo.");
             }
@@ -51,7 +56,8 @@ public class Practica_campo1 {
     public static double restar(double a, double b){
     return a-b;
     }
-    
+    public static double multiplicacion(double a, double b){
+     return a*b;}
     
     
 }
