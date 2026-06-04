@@ -13,6 +13,7 @@ public class Practica_campo1 {
         while (continuar) {
             System.out.println("\nSeleccione una opción:");
             System.out.println("1. Sumar");
+            System.out.println("2. Restar");
             System.out.println("3. Salir");
             System.out.print("Opción: ");
             
@@ -33,6 +34,9 @@ public class Practica_campo1 {
                     double suma = sumar(num1, num2);
                     System.out.println("Resultado de la suma: " + suma);
                     break;
+                case 2:
+                    double resta = restar(num1, num2);
+                    System.out.println("Resultado de la resta: "+ resta);
                 default:
                  System.out.println("Opción no válida. Intente de nuevo.");
             }
@@ -44,7 +48,10 @@ public class Practica_campo1 {
     public static double sumar(double a, double b) {
         return a + b;
     }
+    public static double restar(double a, double b){
+    return a-b;
+    }
     
- 
+    
     
 }
