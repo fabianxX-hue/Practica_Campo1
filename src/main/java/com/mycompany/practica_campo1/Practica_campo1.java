@@ -3,12 +3,14 @@ package com.mycompany.practica_campo1;
 import java.util.Scanner;
 
 public class Practica_campo1 {
-
+    
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         boolean continuar = true;
         
-        System.out.println("===CALCULADORA===");
+        System.out.println("=========================");
+        System.out.println("-------CALCULADORA-------");
+        System.out.println("=========================");
         
         while (continuar) {
             System.out.println("\nSeleccione una opción:");
